@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body {
+    height: 100%;
+    background-color: #bbd2e1;
+}
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-chatbot-kit-chat-bot-message {
+    word-break: break-word;
+}
+
+.react-chatbot-kit-chat-container {
+    position: relative;
+    width: 350px;
+}
+.react-chatbot-kit-chat-inner-container {
+    border-radius: 10px;
+}
+.react-chatbot-kit-chat-message-container {
+    overflow:auto !important;
+}
+.react-chatbot-kit-chat-header {
+    background-color: #168ded;
+    color: #ffffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.react-chatbot-kit-chat-bot-message {
+    background-color: #e7eaed !important;
+    width: 284.5px;
+    color: black;
+    border-radius: 10px;
+}
+.react-chatbot-kit-chat-bot-message-arrow {
+    border-right: 8px solid #e7eaed !important;
+}
+.sherbot-option-button {
+    border-radius: 10px;
+    width: 284.5px;
+    color: #ffffff;
+    background-image: none;
+    background: #2898ec;
+    border: none;
+    margin-left: 15px;
+    font-size: .9rem;
+}
+.react-chatbot-kit-user-chat-message {
+    background-color: #168ded;
+    color: #ffffff !important;
+}
+.react-chatbot-kit-user-chat-message-arrow {
+    border-left: 8px solid #168ded;
+}
+.react-chatbot-kit-chat-btn-send {
+    background-color: #2898ec !important;
+}
+.App-header {
+    background-color: #bbd2e1 !important;
+}
+.react-chatbot-kit-chat-inner-container {
+    height: 600px;
+    border-radius: 10px;
+}
+
+.react-chatbot-kit-chat-message-container {
+    height: 524px;
+    overflow: auto !important;
+}
+@media only screen and (min-device-width: 481px) {
+    .App-header {
+        min-height: 100vh;
+    }
+    
+}
