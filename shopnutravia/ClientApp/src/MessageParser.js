@@ -53,13 +53,13 @@ class MessageParser {
             
         }
         if (ChatResponse.Step === 2) {
-            if (validator.isEmail(message)) {
+            //if (validator.isEmail(message)) {
                 ChatResponse.Email = message;
                 ChatResponse.Step = 3;
                 this.actionProvider.askOrderNo();
-            } else {
-                this.actionProvider.handleInvalidEmail();
-            }
+            //} else {
+            //    this.actionProvider.handleInvalidEmail();
+            //}
         }
         if (ChatResponse.Step === 1) {
             ChatResponse.Name = message;
