@@ -101,7 +101,8 @@ class ActionProvider {
         this.updateChatbotState(message2);
         if (ChatResponse.SKU.length > 0) {
             for (var i = 0; i < ChatResponse.SKU.length; i++) {
-                window.open(`https://www.amazon.com/product-reviews/${ChatResponse.SKU[i]}`, '_blank', 'noreferrer');
+                //window.open(`https://www.amazon.com/product-reviews/${ChatResponse.SKU[i]}`, '_blank', 'noreferrer');
+                window.open(`https://www.amazon.com/review/create-review?&asin=${ChatResponse.SKU[i]}`, '_blank', 'noreferrer');
             }
         }
     }
